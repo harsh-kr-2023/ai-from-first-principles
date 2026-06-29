@@ -1,63 +1,107 @@
 ﻿# Progress Tracker
 
-## Module 0 — Foundations & Learning Systems
+## Phase 1 — Foundations of Intelligence
+### Module 1.1 — Core AI Concepts
 - [ ] Define AI, machine learning, deep learning, and intelligence categories
-- [ ] Review the history of AI and major paradigm shifts
-- [ ] Document the project vision, scope, and long-term goals
-- [ ] Build the repository structure and `roadmap` planning artifacts
-- [ ] Establish reproducible workflows for experiments, notebooks, and code
-- [ ] Create a learning log and journaling routine for weekly reflections
-- [ ] Review ethics, open-source values, and documentation standards
+- [ ] Compare symbolic reasoners, search systems, and learning-based approaches
+- [ ] Review major AI milestones and modern architecture context
+- [ ] Explain optimization, search, evaluation, and problem decomposition
 
-## Module 1 — Mathematics & Data Foundations
-- [ ] Study linear algebra fundamentals: vectors, matrices, operations, eigenvalues
-- [ ] Study calculus fundamentals: derivatives, gradients, chain rule, optimization
-- [ ] Study probability and statistics: distributions, expectation, variance, Bayes
-- [ ] Build data processing workflows with NumPy and pandas
-- [ ] Implement normalization, feature encoding, and missing-value handling
-- [ ] Build basic data visualizations and exploratory data analysis
-- [ ] Validate training, validation, and test set design
+### Module 1.2 — Learning Systems and Documentation
+- [ ] Design repository structure, naming conventions, and folder responsibilities
+- [ ] Establish reproducible experiment, notebook, and code workflows
+- [ ] Define journaling and reflection practices for long-term learning
+- [ ] Capture ethics, responsible AI, and open-source principles
 
-## Module 2 — Machine Learning Core
-- [ ] Learn linear regression and logistic regression theory
-- [ ] Implement decision trees and measure impurity/variance
-- [ ] Explore regularization techniques and bias-variance tradeoffs
-- [ ] Build ensemble models: bagging, random forest, boosting
-- [ ] Study unsupervised methods: clustering and dimensionality reduction
-- [ ] Learn feature engineering, selection, and representation strategies
-- [ ] Establish cross-validation and evaluation metric workflows
-- [ ] Practice error analysis and model comparison
+## Phase 2 — Machine Learning
+### Module 2.1 — Data and Feature Foundations
+- [ ] Understand dataset structure, data types, and data quality issues
+- [ ] Implement data cleaning, normalization, encoding, and missing-value handling
+- [ ] Build exploratory data analysis workflows and visualizations
 
-## Module 3 — Deep Learning
-- [ ] Understand perceptrons, multilayer perceptrons, and activation functions
-- [ ] Learn backpropagation and gradient-based optimization
-- [ ] Explore convolutional neural network architectures
-- [ ] Explore recurrent and sequence models
-- [ ] Study attention, transformers, and modern sequence processing
-- [ ] Learn training strategies: regularization, normalization, transfer learning
-- [ ] Practice building models using TensorFlow or PyTorch
-- [ ] Evaluate model performance and debug training behavior
+### Module 2.2 — Mathematical Foundations for ML
+- [ ] Learn linear algebra for vectors, matrices, and transformations
+- [ ] Study calculus basics: derivatives, gradients, and optimization
+- [ ] Cover probability and statistics for uncertainty and estimation
 
-## Module 4 — Natural Language Processing
-- [ ] Understand tokenization, embeddings, and vector representations
-- [ ] Learn transformer-based language models and attention mechanisms
-- [ ] Build text classification, summarization, or retrieval workflows
-- [ ] Study prompt engineering and fine-tuning approaches
-- [ ] Evaluate NLP systems with task-specific metrics
-- [ ] Practice human-centered language system design
+### Module 2.3 — Core Supervised Learning
+- [ ] Study regression, classification, loss functions, and gradient updates
+- [ ] Learn model validation, cross-validation, and evaluation metrics
+- [ ] Explore feature engineering, regularization, and error analysis
 
-## Module 5 — Applied AI Systems
-- [ ] Build model serving and API prototypes for AI applications
-- [ ] Learn deployment basics: containers, lightweight servers, web endpoints
-- [ ] Establish data pipelines and reproducible environment management
-- [ ] Learn MLOps fundamentals: versioning, testing, logging, monitoring
-- [ ] Measure system-level tradeoffs: latency, cost, reliability
-- [ ] Document implementation decisions and publish a case study
+## Phase 3 — Deep Learning
+### Module 3.1 — Neural Network Fundamentals
+- [ ] Understand perceptrons, multilayer architectures, and activations
+- [ ] Learn backpropagation, gradient descent, and optimization behavior
+- [ ] Master regularization and normalization strategies
 
-## Module 6 — Responsible AI & Future Research
-- [ ] Study AI fairness, bias mitigation, and ethical framework design
-- [ ] Learn interpretability techniques and explainability best practices
-- [ ] Understand robustness, dataset drift, and model maintenance
-- [ ] Review current research and future trends in AI
-- [ ] Publish a research synthesis and next-phase roadmap
-- [ ] Define follow-on modules and portfolio-quality deliverables
+### Module 3.2 — Convolutional and Sequence Models
+- [ ] Study convolutional networks for image and signal data
+- [ ] Learn recurrent structures and sequence modeling fundamentals
+- [ ] Explore transfer learning and model adaptation techniques
+
+## Phase 4 — Language Intelligence
+### Module 4.1 — NLP Fundamentals
+- [ ] Learn tokenization, embeddings, and language preprocessing
+- [ ] Understand text classification, sequence labeling, and retrieval workflows
+- [ ] Study NLP evaluation metrics and validation strategies
+
+### Module 4.2 — Language System Design
+- [ ] Explore prompt design, fine-tuning, and human-centered workflows
+- [ ] Study language model bias, safety, and responsible output design
+- [ ] Document language system evaluation and use-case selection
+
+## Phase 5 — Transformers
+### Module 5.1 — Transformer Architecture
+- [ ] Study self-attention, positional encoding, and transformer blocks
+- [ ] Compare encoder-only, decoder-only, and encoder-decoder families
+- [ ] Understand transformer advantages over earlier sequence models
+
+### Module 5.2 — Transformer Applications
+- [ ] Explore transformer tasks such as translation, summarization, and embeddings
+- [ ] Evaluate practical fine-tuning and deployment considerations
+- [ ] Analyze architecture tradeoffs for real-world use cases
+
+## Phase 6 — Large Language Models
+### Module 6.1 — LLM Foundations
+- [ ] Understand scaling laws, context windows, and model capacity
+- [ ] Study tokenization, generation mechanisms, and training data sources
+- [ ] Learn evaluation frameworks for generative systems
+
+### Module 6.2 — Responsible LLM Use
+- [ ] Study prompt engineering, safety, and bias mitigation techniques
+- [ ] Explore retrieval-augmented systems and hybrid LLM pipelines
+- [ ] Build responsible evaluation and user experience practices
+
+## Phase 7 — AI Engineering
+### Module 7.1 — Engineering Practices
+- [ ] Learn environment management and dependency control
+- [ ] Study testing, modular code structure, and documentation standards
+- [ ] Explore experiment tracking and version control for AI work
+
+### Module 7.2 — MLOps and Lifecycle
+- [ ] Study model deployment patterns, logging, and monitoring
+- [ ] Learn versioning, data lineage, and retraining triggers
+- [ ] Build deployment readiness practices for AI systems
+
+## Phase 8 — Production AI Systems
+### Module 8.1 — Service Design
+- [ ] Design APIs and interactive applications for AI inference
+- [ ] Learn latency, cost, and reliability tradeoffs for production systems
+- [ ] Explore deployment strategies for lightweight and hosted services
+
+### Module 8.2 — Operations and Monitoring
+- [ ] Study monitoring, alerting, and model performance tracking
+- [ ] Learn drift detection, retraining strategies, and operational risk
+- [ ] Document operational readiness for deployed AI services
+
+## Phase 9 — Research Frontiers
+### Module 9.1 — Emerging AI Topics
+- [ ] Review reinforcement learning, multimodal AI, and generative systems
+- [ ] Explore hardware-aware AI and distributed training research
+- [ ] Study safe, responsible, and collaborative AI directions
+
+### Module 9.2 — Portfolio Synthesis
+- [ ] Consolidate results and highlight portfolio-worthy deliverables
+- [ ] Create a public roadmap for the next 6–12 months
+- [ ] Document lessons learned and research gaps

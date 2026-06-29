@@ -1,149 +1,259 @@
-﻿# AI From First Principles — Master Roadmap
+﻿# AI From First Principles — Phase-Based Master Roadmap
 
-This repository is designed as a long-term, portfolio-quality AI learning journey. The roadmap is organized around progressive modules that build from foundational theory to applied systems, research, and responsible production.
+This repository is structured around a long-term phase hierarchy. Each phase contains one or more modules, each module contains lesson-level learning outcomes, and each module includes implementation and capstone deliverables.
 
 ## Overview
-| Module | Focus | Duration | Capstone |
+| Phase | Focus | Duration | Example Capstone |
 |---|---|---|---|
-| 0 | Foundations & learning systems | 3 weeks | Learning workflow and study plan artifact |
-| 1 | Mathematics & Data Foundations | 5 weeks | Scratch implementations of regression and data pipelines |
-| 2 | Machine Learning Core | 6 weeks | End-to-end supervised learning pipeline |
-| 3 | Deep Learning | 8 weeks | Neural network model and notebook case study |
-| 4 | Natural Language Processing | 6 weeks | Language model prototype and analysis |
-| 5 | Applied AI Systems | 6 weeks | Deployed AI service or interactive demo |
-| 6 | Responsible AI & Future Research | 4 weeks | Public synthesis and future module plan |
+| Phase 1 | Foundations of Intelligence | 4 weeks | Project handbook and structured learning system |
+| Phase 2 | Machine Learning | 6 weeks | End-to-end machine learning prototype |
+| Phase 3 | Deep Learning | 8 weeks | Neural network case study |
+| Phase 4 | Language Intelligence | 6 weeks | Practical NLP prototype |
+| Phase 5 | Transformers | 6 weeks | Transformer architecture implementation and analysis |
+| Phase 6 | Large Language Models | 6 weeks | LLM application and evaluation |
+| Phase 7 | AI Engineering | 5 weeks | Reproducible AI engineering workflow |
+| Phase 8 | Production AI Systems | 6 weeks | Deployed AI capability with documentation |
+| Phase 9 | Research Frontiers | 4 weeks | Published research synthesis and growth plan |
 
-## Module 0 — Foundations & Learning Systems
-- Objectives
-  - Establish the conceptual foundation for AI and the learning path.
-  - Build an organized project structure, documentation habits, and study workflow.
-  - Clarify the difference between research, engineering, and product-ready AI.
-- Estimated duration: 3 weeks
-- Topics
-  - Definitions: AI, machine learning, deep learning, narrow vs broad intelligence
-  - History of AI, major breakthroughs, and why current architectures matter
-  - Problem decomposition, search, optimization, and evaluation
-  - Project structure, reproducibility, version control, and learning log practice
-  - Ethics, open source, and publication-style documentation principles
+## Phase 1 — Foundations of Intelligence
+- Goal
+  - Establish the vocabulary, historical context, and project systems required for an AI portfolio-quality journey.
+- Duration: 4 weeks
+
+### Module 1.1 — Core AI Concepts
+- Lessons
+  - Define AI, machine learning, deep learning, and intelligence categories.
+  - Compare symbolic reasoners, search systems, and learning-based approaches.
+  - Review major AI milestones and the emergence of modern architectures.
+  - Explain optimization, search, evaluation, and problem decomposition.
+- Implementation
+  - Build a concept map in `whiteboard` and document definitions in `roadmap/glossary.md`.
 - Capstone
-  - Publish a project handbook that defines this repository’s goals, rules, and learning process.
-- Dependencies
-  - None. This module is the baseline for everything ahead.
+  - Publish a foundational handbook describing the project purpose, success criteria, and study workflows.
 
-## Module 1 — Mathematics & Data Foundations
-- Objectives
-  - Solidify the math and data fluency required for modern AI.
-  - Implement numerical methods and practical data workflows from first principles.
-- Estimated duration: 5 weeks
-- Topics
-  - Linear algebra: vectors, matrices, eigenvalues, decomposition
-  - Calculus: derivatives, gradients, partial derivatives, chain rule
-  - Probability and statistics: distributions, Bayes theorem, likelihood, estimators
-  - Data handling: dataset structure, normalization, missing values, feature encoding
-  - Coding foundations: NumPy, pandas, visualization, deterministic experiments
+### Module 1.2 — Learning Systems and Documentation
+- Lessons
+  - Design the repository structure, naming schemes, and file responsibilities.
+  - Establish reproducible workflows for experiments, notebooks, and code.
+  - Define journaling and reflection practices for long-term learning.
+  - Capture ethics, responsible AI, and open-source principles.
+- Implementation
+  - Create the initial `roadmap`, `journal`, and `resources` workflows.
 - Capstone
-  - Build regression and classification algorithms from scratch and validate them on real data.
-- Dependencies
-  - Module 0
+  - Finalize the repository template and onboarding guide for future viewers.
 
-## Module 2 — Machine Learning Core
-- Objectives
-  - Master the core paradigms of supervised and unsupervised learning.
-  - Learn how to choose, train, evaluate, and tune machine learning models.
-- Estimated duration: 6 weeks
-- Topics
-  - Supervised learning: linear models, logistic regression, decision trees
-  - Model validation: cross-validation, bias-variance tradeoff, metrics
-  - Regularization, feature selection, feature engineering, and data augmentation
-  - Ensemble methods: bagging, random forests, boosting
-  - Unsupervised learning: clustering, dimensionality reduction, representation learning
-  - Model comparison and error analysis
+## Phase 2 — Machine Learning
+- Goal
+  - Learn the practical foundations of data, models, and evaluation needed for machine learning systems.
+- Duration: 6 weeks
+
+### Module 2.1 — Data and Feature Foundations
+- Lessons
+  - Understand dataset structure, types, and common data quality issues.
+  - Implement data cleaning, normalization, encoding, and missing-value strategies.
+  - Build exploratory data analysis workflows and visualizations.
+- Implementation
+  - Create an EDA notebook or script in `experiments` that documents dataset decisions.
 - Capstone
-  - Deliver a complete machine learning pipeline with reproducible evaluation and documentation.
-- Dependencies
-  - Module 1
+  - Deliver a reproducible data preparation pipeline for a real dataset.
 
-## Module 3 — Deep Learning
-- Objectives
-  - Build a practical understanding of neural network architectures and training.
-  - Develop the ability to interpret and iterate on deep models.
-- Estimated duration: 8 weeks
-- Topics
-  - Neural networks: perceptrons, multilayer architectures, activation functions
-  - Backpropagation, gradient descent, optimizers, learning rate schedules
-  - Convolutional neural networks, sequence models, recurrent networks
-  - Attention mechanisms, transformers, and modern model design
-  - Training strategies: regularization, normalization, transfer learning
-  - Framework proficiency: TensorFlow, PyTorch, or equivalent
+### Module 2.2 — Mathematical Foundations for ML
+- Lessons
+  - Learn linear algebra for vectors, matrices, and transformations.
+  - Study calculus basics: derivatives, gradients, and optimization.
+  - Cover probability and statistics for uncertainty, estimation, and hypothesis testing.
+- Implementation
+  - Implement key math operations and verify them through code examples.
 - Capstone
-  - Build, train, and evaluate a neural network model for an image or sequence task.
-- Dependencies
-  - Module 2
+  - Publish a math-focused module notebook that connects theory to model behavior.
 
-## Module 4 — Natural Language Processing
-- Objectives
-  - Apply deep learning to language data and build systems that understand text.
-  - Learn model evaluation, tokenization, and how large language models work at a system level.
-- Estimated duration: 6 weeks
-- Topics
-  - NLP fundamentals: tokenization, embeddings, sequence modeling
-  - Transformer family, attention, pretrained language models
-  - Text generation, classification, summarization, and retrieval
-  - Prompt engineering, fine-tuning, and responsible usage
-  - Evaluation approaches for NLP and human-centered assessment
+### Module 2.3 — Core Supervised Learning
+- Lessons
+  - Study linear regression, logistic regression, loss functions, and gradient updates.
+  - Learn model validation, cross-validation, and evaluation metrics.
+  - Explore feature engineering, regularization, and error analysis.
+- Implementation
+  - Build supervised learning models from scratch in `implementations`.
 - Capstone
-  - Create a practical language application such as a QA system, summarizer, or intent classifier.
-- Dependencies
-  - Module 3
+  - Deliver an end-to-end supervised learning prototype with reproducible evaluation.
 
-## Module 5 — Applied AI Systems
-- Objectives
-  - Translate models into production-capable systems and document reproducible deployments.
-  - Learn engineering best practices for APIs, monitoring, and collaboration.
-- Estimated duration: 6 weeks
-- Topics
-  - Model serving, REST/GraphQL APIs, and lightweight deployment
-  - Data pipelines, reproducibility, packaging, and environment management
-  - MLOps fundamentals: versioning, monitoring, logging, and testing
-  - Performance tradeoffs: latency, throughput, model size, and cost
-  - Documentation, portfolio-quality demos, and open-source release processes
+## Phase 3 — Deep Learning
+- Goal
+  - Develop practical skills in neural network modeling, training, and architecture design.
+- Duration: 8 weeks
+
+### Module 3.1 — Neural Network Fundamentals
+- Lessons
+  - Understand perceptrons, multilayer architectures, and activation functions.
+  - Learn backpropagation, gradient descent, and optimization behavior.
+  - Master common training strategies including regularization and normalization.
+- Implementation
+  - Implement a small neural network from scratch and compare results to a framework.
 - Capstone
-  - Ship a deployed AI service or interactive application with a publishable case study.
-- Dependencies
-  - Module 2, Module 3, Module 4
+  - Publish a neural network case study with training diagnostics.
 
-## Module 6 — Responsible AI & Future Research
-- Objectives
-  - Consolidate knowledge around ethics, explainability, robustness, and future trends.
-  - Produce a public-facing research synthesis and next-phase roadmap.
-- Estimated duration: 4 weeks
-- Topics
-  - Responsible AI: fairness, bias mitigation, privacy, and governance
-  - Interpretability and explainable AI methods
-  - Robustness, dataset drift, adversarial risk, and maintenance
-  - AI research literacy: papers, reproducibility, open-source contribution
-  - Future modules: generative systems, reinforcement learning, multimodal AI, hardware-aware AI
+### Module 3.2 — Convolutional and Sequence Models
+- Lessons
+  - Study convolutional networks for structured signal and image data.
+  - Learn recurrent structures and sequence modeling fundamentals.
+  - Explore transfer learning and model adaptation techniques.
+- Implementation
+  - Build an image or sequence-based model with transfer learning experiments.
 - Capstone
-  - Publish a research-style report that summarizes lessons learned and defines the next 12–24 month strategy.
-- Dependencies
-  - Modules 0–5
+  - Deliver an analyzed case study on a deep learning task.
 
-## Dependencies Map
-- Module 0 → Module 1 → Module 2 → Module 3 → Module 4 → Module 5 → Module 6
-- Module 5 depends on the applied modeling skills from Modules 2–4.
-- Module 6 depends on the practical results, ethics grounding, and production lessons from all prior modules.
+## Phase 4 — Language Intelligence
+- Goal
+  - Apply deep learning concepts to natural language and text understanding.
+- Duration: 6 weeks
 
-## Future Modules
-These topics may evolve as the field advances and as the repository becomes a knowledge base.
-- Reinforcement learning and decision-making systems
-- Generative AI and multimodal modeling
-- AI infrastructure, hardware-aware design, and distributed training
-- AI for science: simulation, optimization, and domain-specific applications
-- AI product design, user-centered intelligence, and human-AI collaboration
-- Open-source research contributions, reproducible notebooks, and community reviews
+### Module 4.1 — NLP Fundamentals
+- Lessons
+  - Learn tokenization, embedding representations, and language preprocessing.
+  - Understand text classification, sequence labeling, and retrieval workflows.
+  - Study evaluation metrics for NLP tasks.
+- Implementation
+  - Build a basic NLP prototype in `experiments` with documented datasets and metrics.
+- Capstone
+  - Deliver a practical language intelligence prototype, such as classification or summarization.
+
+### Module 4.2 — Language System Design
+- Lessons
+  - Explore prompt design, fine-tuning, and human-centered language workflows.
+  - Study model behavior, bias, and safety for language outputs.
+- Implementation
+  - Document a language system design and validation plan.
+- Capstone
+  - Publish a language intelligence notebook or demo with user-centered evaluation.
+
+## Phase 5 — Transformers
+- Goal
+  - Understand transformer architectures and attention-based modeling in depth.
+- Duration: 6 weeks
+
+### Module 5.1 — Transformer Architecture
+- Lessons
+  - Study self-attention, positional encoding, and transformer block structure.
+  - Learn encoder-only, decoder-only, and encoder-decoder families.
+  - Compare transformers to earlier sequence models.
+- Implementation
+  - Build a transformer block implementation and verify attention behavior.
+- Capstone
+  - Deliver an implementation report and transformer analysis notebook.
+
+### Module 5.2 — Transformer Applications
+- Lessons
+  - Explore transformer-based tasks such as translation, summarization, and representation learning.
+  - Evaluate performance tradeoffs and practical fine-tuning approaches.
+- Implementation
+  - Create an experimental transformer application with reproducible results.
+- Capstone
+  - Publish a transformer experiment that demonstrates architecture choices.
+
+## Phase 6 — Large Language Models
+- Goal
+  - Learn how large language models are built, evaluated, and applied responsibly.
+- Duration: 6 weeks
+
+### Module 6.1 — LLM Foundations
+- Lessons
+  - Understand scaling laws, model size, and training data considerations.
+  - Study tokenization, context windows, and generation mechanisms.
+  - Learn evaluation approaches for generative language systems.
+- Implementation
+  - Experiment with an LLM workflow or adapter-based fine-tuning pipeline.
+- Capstone
+  - Publish an LLM application demonstration with clear evaluation criteria.
+
+### Module 6.2 — Responsible LLM Use
+- Lessons
+  - Study prompt engineering, bias mitigation, and safety guardrails.
+  - Explore retrieval-augmented systems and hybrid LLM pipelines.
+- Implementation
+  - Build a prototype that integrates an LLM with external knowledge or retrieval.
+- Capstone
+  - Deliver a responsible LLM application case study.
+
+## Phase 7 — AI Engineering
+- Goal
+  - Build the engineering foundation for reproducible AI systems and maintainable workflows.
+- Duration: 5 weeks
+
+### Module 7.1 — Engineering Practices
+- Lessons
+  - Learn environment management, dependency control, and reproducible builds.
+  - Study testing, modular code structure, and documentation standards.
+  - Explore experiment tracking and version control for models and data.
+- Implementation
+  - Create reusable project templates and CI-style checks for AI work.
+- Capstone
+  - Publish an AI engineering handbook or template library.
+
+### Module 7.2 — MLOps and Lifecycle
+- Lessons
+  - Study model deployment patterns, logging, monitoring, and data lineage.
+  - Learn how to manage model versions and production training pipelines.
+- Implementation
+  - Build a lightweight MLOps workflow or deployment readiness checklist.
+- Capstone
+  - Deliver an engineering case study for model delivery and lifecycle management.
+
+## Phase 8 — Production AI Systems
+- Goal
+  - Translate prototypes into reliable, deployable systems with portfolio-ready documentation.
+- Duration: 6 weeks
+
+### Module 8.1 — Service Design
+- Lessons
+  - Design APIs for AI inference and interactive applications.
+  - Learn system-level tradeoffs for latency, cost, and reliability.
+  - Explore deployment strategies for lightweight and cloud-hosted services.
+- Implementation
+  - Build a production-ready AI service or demo application.
+- Capstone
+  - Release a deployable AI application with user-facing documentation.
+
+### Module 8.2 — Operations and Monitoring
+- Lessons
+  - Study monitoring, alerting, and model performance tracking.
+  - Learn how to manage drift, retraining triggers, and operational risk.
+- Implementation
+  - Create monitoring and validation scripts for a deployed AI system.
+- Capstone
+  - Publish an operational readiness report for the service.
+
+## Phase 9 — Research Frontiers
+- Goal
+  - Synthesize learnings, evaluate future directions, and define next-phase research.
+- Duration: 4 weeks
+
+### Module 9.1 — Emerging AI Topics
+- Lessons
+  - Review reinforcement learning, multimodal AI, and generative systems.
+  - Explore hardware-aware AI and distributed training research.
+  - Study new directions in safe, responsible, and collaborative AI.
+- Implementation
+  - Curate a research summary in `resources` and add references to `roadmap/questions.md`.
+- Capstone
+  - Publish a future research synthesis that describes where the project should evolve.
+
+### Module 9.2 — Portfolio Synthesis
+- Lessons
+  - Consolidate core results and highlight portfolio-worthy deliverables.
+  - Create a public roadmap for the next 6–12 months.
+  - Document lessons learned and research gaps.
+- Implementation
+  - Build a final portfolio index and project showcase document.
+- Capstone
+  - Publish a completion report and next-phase AI roadmap.
+
+## Dependencies
+- Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Phase 8 → Phase 9
+- Phase 7 depends on the engineering maturity supported by Phases 2–6.
+- Phase 8 depends on practical systems, modeling, and deployment readiness from Phases 2–7.
+- Phase 9 depends on the full project history and documented outcomes from all prior phases.
 
 ## Long-Term Portfolio Goals
-- Keep every module backed by documented code, experiments, and outcomes.
-- Preserve reproducibility through versioned notebooks, data notes, and implementation records.
-- Maintain a public-facing knowledge base that can be shared as a learning portfolio.
-- Use the repository to demonstrate both technical depth and disciplined engineering.
+- Preserve reproducibility with phase-level documentation, module artifacts, and lesson-level implementation records.
+- Keep this repository suitable for public review by organizing content along phases, modules, and deliverables.
+- Maintain a portfolio that balances technical learning, engineering discipline, and research clarity.
