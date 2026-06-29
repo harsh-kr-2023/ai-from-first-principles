@@ -1,88 +1,119 @@
-﻿# AI From First Principles — Glossary
+# AI From First Principles — Glossary
 
-## Artificial Intelligence (AI)
-AI refers to methods and systems that perform tasks typically associated with human intelligence, including reasoning, learning, perception, and decision-making.
+## Phase 1 — Foundations of Intelligence
+### Intelligence
+_Entry to be completed._
 
-## Machine Learning (ML)
-ML is a subset of AI where systems improve their behavior by learning from data rather than relying on explicit rules.
+### Representation
+_Entry to be completed._
 
-## Deep Learning (DL)
-DL is a branch of machine learning that uses layered neural networks with many parameters to learn hierarchical representations.
+### Search
+_Entry to be completed._
 
-## Supervised Learning
-A machine learning paradigm where a model learns from labeled examples to predict outputs for new inputs.
+### Symbolic AI
+_Entry to be completed._
 
-## Unsupervised Learning
-A paradigm where a model learns structure or patterns from unlabeled data, such as clustering or dimensionality reduction.
+## Phase 2 — Machine Learning
+### Probability
+_Entry to be completed._
 
-## Reinforcement Learning
-A learning framework where agents make sequential decisions based on rewards and penalties obtained from the environment.
+### Bias-Variance Tradeoff
+_Entry to be completed._
 
-## Neural Network
-A parameterized model inspired by biological neurons that processes inputs through interconnected layers and nonlinear activations.
+### Generalization
+_Entry to be completed._
 
-## Backpropagation
-An algorithm for computing gradients of a neural network’s loss with respect to its weights, enabling gradient-based training.
+### Loss Function
+_Entry to be completed._
 
-## Gradient Descent
-An optimization method that updates model parameters by moving in the direction of the negative gradient of the loss.
+## Phase 3 — Deep Learning
+### Neural Network
+_Entry to be completed._
 
-## Activation Function
-A nonlinear function applied inside neural network neurons that enables the model to learn complex patterns.
+### Backpropagation
+_Entry to be completed._
 
-## Embedding
-A dense numeric representation of discrete objects such as words, tokens, or categories that preserves relationships in vector space.
+### Activation Function
+_Entry to be completed._
 
-## Transformer
-A neural architecture based on self-attention that has become the standard for modern sequence and language models.
+### Representation Learning
+_Entry to be completed._
 
-## Attention
-A mechanism that lets models weight the importance of different input elements when constructing a representation.
+## Phase 4 — Language Intelligence
+### Embedding
+_Entry to be completed._
 
-## Tokenization
-The process of segmenting text into discrete symbols such as words, subwords, or characters for language models.
+### Tokenization
+_Entry to be completed._
 
-## Feature Engineering
-The practice of transforming raw data into informative input features for machine learning models.
+### Context
+_Entry to be completed._
 
-## Overfitting
-When a model learns noise or idiosyncrasies in training data and fails to generalize to new examples.
+### Sequence Modeling
+_Entry to be completed._
 
-## Regularization
-Techniques used to reduce overfitting by constraining a model’s complexity or penalizing extreme parameter values.
+## Phase 5 — Transformers
+### Attention
+_Entry to be completed._
 
-## Cross-Validation
-A technique for evaluating model performance by training and validating on multiple data partitions.
+### Transformer
+_Entry to be completed._
 
-## Dataset Drift
-A change in the data distribution over time that can degrade model performance in production.
+### Self-Attention
+_Entry to be completed._
 
-## Model Evaluation
-The process of measuring a model’s performance using metrics such as accuracy, precision, recall, F1 score, and ROC-AUC.
+### Positional Encoding
+_Entry to be completed._
 
-## MLOps
-A set of practices and tools for managing the machine learning lifecycle, including deployment, monitoring, and reproducibility.
+## Phase 6 — Large Language Models
+### Scaling Law
+_Entry to be completed._
 
-## Model Serving
-The process of hosting a trained model so it can respond to new input data through an API or application.
+### Prompt
+_Entry to be completed._
 
-## Reproducibility
-The ability to recreate an experiment or result consistently using the same code, data, and configuration.
+### Hallucination
+_Entry to be completed._
 
-## Interpretability
-Methods and practices that help people understand how a model makes predictions.
+### Responsible AI
+_Entry to be completed._
 
-## Fairness
-The practice of designing and evaluating AI systems so they avoid biased outcomes across different groups.
+## Phase 7 — AI Engineering
+### Reproducibility
+_Entry to be completed._
 
-## Robustness
-The capability of a model to maintain performance under changing data, adversarial inputs, or real-world variation.
+### Experiment Tracking
+_Entry to be completed._
 
-## Responsible AI
-A broader commitment to designing AI systems that are safe, ethical, transparent, and beneficial to users.
+### Validation
+_Entry to be completed._
 
-## Open Source
-Software or documentation licensed in a way that allows anyone to inspect, modify, and reuse it.
+### Technical Debt
+_Entry to be completed._
 
-## Portfolio Quality
-A standard of work that is reproducible, well-documented, and suitable for sharing with employers or the public.
+## Phase 8 — Production AI Systems
+### Model Serving
+_Entry to be completed._
+
+### Monitoring
+_Entry to be completed._
+
+### Drift
+_Entry to be completed._
+
+### Operations
+_Entry to be completed._
+
+## Phase 9 — Research Frontiers
+### Reinforcement Learning
+_Entry to be completed._
+
+### Multimodal AI
+_Entry to be completed._
+
+### Hardware-aware AI
+_Entry to be completed._
+
+### Research Roadmap
+_Entry to be completed._
+

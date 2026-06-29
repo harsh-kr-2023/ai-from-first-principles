@@ -1,44 +1,56 @@
-﻿# Core Research Questions
+# Core Research Questions
 
-## Project-Level Questions
-- What are the essential skills and concepts needed for a public AI portfolio?
-- How should learning be structured so each module builds systematically on the previous one?
-- Which outcomes are most valuable for a six-month AI learning journey?
-- How can this repository balance deep technical work with reusable documentation?
-- What are the best practices for recording experiments, decisions, and lessons learned?
+## Phase 1 — Foundations of Intelligence
+- What is intelligence and why is it hard to define?
+- Why did symbolic AI struggle on real-world tasks?
+- What problem does representation solve?
+- Can intelligence emerge from prediction alone?
 
-## Foundational Questions
-- What mathematical concepts are required to understand modern AI confidently?
-- How can theory be converted into reproducible implementation and analysis?
-- What is the right scope for an AI foundation module that remains practical and rigorous?
-- How do search, optimization, and probability combine into AI problem solving?
+## Phase 2 — Machine Learning
+- Why does probability matter for learning?
+- What causes models to overfit?
+- How do data quality and representation influence results?
+- When is a simple model the right choice?
 
-## Machine Learning Questions
-- What makes a model generalize rather than overfit?
-- How should evaluation metrics be chosen for different problem categories?
-- When is feature engineering more important than model selection?
-- What are the practical tradeoffs between interpretability and performance?
+## Phase 3 — Deep Learning
+- Why do neural networks need nonlinear activation?
+- How does depth affect representational power?
+- Why does backpropagation enable deep learning?
+- What training challenges are unique to deep models?
 
-## Deep Learning Questions
-- Why do neural networks benefit from depth, and where do they fail?
-- How do optimization algorithms, learning rates, and regularization interact?
-- When should transfer learning be used versus training from scratch?
-- What are the best practices for debugging model training and convergence?
+## Phase 4 — Language Intelligence
+- Why is natural language different from other data?
+- Why do embeddings capture meaning?
+- How does context change text interpretation?
+- Why is language generation harder than classification?
 
-## NLP Questions
-- How do embedding representations capture meaning?
-- What are the strengths and limits of transformer architectures?
-- How can language models be aligned with user intent and safe behavior?
-- What are meaningful ways to evaluate NLP systems beyond accuracy?
+## Phase 5 — Transformers
+- Why did attention replace recurrence?
+- What makes transformers easier to scale?
+- How do transformer families differ in purpose?
+- How do transformers support new modalities?
 
-## Systems & Production Questions
-- What does it take to move a research prototype into a reliable system?
-- How should AI services be packaged for reuse and demonstration?
-- What needs to be documented to make a project portfolio-ready?
-- How should versioning and data lineage be tracked for model-driven systems?
+## Phase 6 — Large Language Models
+- Why do large language models behave differently?
+- What causes hallucinations in generative models?
+- Why are context windows a critical constraint?
+- When should LLMs be used responsibly?
 
-## Responsible AI Questions
-- How can fairness and bias be assessed and improved in practice?
-- What does explainability mean for different stakeholders?
-- How should sustainability, privacy, and safety inform design decisions?
-- Which future AI topics should be included to keep the knowledge base current?
+## Phase 7 — AI Engineering
+- Why is reproducibility harder in AI than in traditional software?
+- How should experiments and data be versioned?
+- What does a practical validation strategy look like?
+- How should assumptions be documented?
+
+## Phase 8 — Production AI Systems
+- What is required to serve AI models in production?
+- Why are latency and reliability essential for AI services?
+- How does deployment shape model design?
+- How should deployed models be monitored and updated?
+
+## Phase 9 — Research Frontiers
+- What emerging paradigms are worth tracking?
+- How does hardware continue to shape AI progress?
+- What does multimodal intelligence enable?
+- How should this handbook evolve next?
+

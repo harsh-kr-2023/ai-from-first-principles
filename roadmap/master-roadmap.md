@@ -1,259 +1,542 @@
-﻿# AI From First Principles — Phase-Based Master Roadmap
+# AI From First Principles — Phase-Based Master Roadmap
 
-This repository is structured around a long-term phase hierarchy. Each phase contains one or more modules, each module contains lesson-level learning outcomes, and each module includes implementation and capstone deliverables.
+Current Phase: Phase 1 — Foundations of Intelligence
+Current Lesson: L1.1 — What did early AI promise?
+Next Lesson: L1.2 — Why did symbolic AI struggle?
+Overall Progress: 0%
 
-## Overview
-| Phase | Focus | Duration | Example Capstone |
-|---|---|---|---|
-| Phase 1 | Foundations of Intelligence | 4 weeks | Project handbook and structured learning system |
-| Phase 2 | Machine Learning | 6 weeks | End-to-end machine learning prototype |
-| Phase 3 | Deep Learning | 8 weeks | Neural network case study |
-| Phase 4 | Language Intelligence | 6 weeks | Practical NLP prototype |
-| Phase 5 | Transformers | 6 weeks | Transformer architecture implementation and analysis |
-| Phase 6 | Large Language Models | 6 weeks | LLM application and evaluation |
-| Phase 7 | AI Engineering | 5 weeks | Reproducible AI engineering workflow |
-| Phase 8 | Production AI Systems | 6 weeks | Deployed AI capability with documentation |
-| Phase 9 | Research Frontiers | 4 weeks | Published research synthesis and growth plan |
+Every lesson should eventually produce:
+- Lesson notes
+- Whiteboard diagram
+- Journal entry
+- Glossary update
+- Research questions
+- Implementation (when applicable)
+- Progress update
 
 ## Phase 1 — Foundations of Intelligence
-- Goal
-  - Establish the vocabulary, historical context, and project systems required for an AI portfolio-quality journey.
-- Duration: 4 weeks
 
-### Module 1.1 — Core AI Concepts
-- Lessons
-  - Define AI, machine learning, deep learning, and intelligence categories.
-  - Compare symbolic reasoners, search systems, and learning-based approaches.
-  - Review major AI milestones and the emergence of modern architectures.
-  - Explain optimization, search, evaluation, and problem decomposition.
-- Implementation
-  - Build a concept map in `whiteboard` and document definitions in `roadmap/glossary.md`.
-- Capstone
-  - Publish a foundational handbook describing the project purpose, success criteria, and study workflows.
+- Mission
+  - Establish the intellectual foundations that explain why intelligence is difficult and why learning became the central idea.
+- Objectives
+  - Define intelligence from a problem-driven engineering perspective.
+  - Trace the failure modes of early symbolic and rule-based systems.
+  - Explain why representation and generalization are core to AI.
+- Prerequisites
+  - Curiosity about intelligence and basic problem solving.
+- Estimated Duration
+  - 3 weeks
+- Capstone Project
+  - Publish a foundational chapter that explains the transition from symbolic AI to learning-based intelligence.
+- Success Criteria
+  - The handbook clearly articulates the problem, the historical transition, and the reasons for a learning-first approach.
 
-### Module 1.2 — Learning Systems and Documentation
-- Lessons
-  - Design the repository structure, naming schemes, and file responsibilities.
-  - Establish reproducible workflows for experiments, notebooks, and code.
-  - Define journaling and reflection practices for long-term learning.
-  - Capture ethics, responsible AI, and open-source principles.
-- Implementation
-  - Create the initial `roadmap`, `journal`, and `resources` workflows.
-- Capstone
-  - Finalize the repository template and onboarding guide for future viewers.
+### L1.1 — What did early AI promise?
+- Core Question
+  - What problem did the first AI researchers set out to solve?
+- Estimated Time
+  - 3 hours
+- Prerequisites
+  - None
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L1.2 — Why did symbolic AI struggle?
+- Core Question
+  - Why did rule-based systems fail on real-world problems?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L1.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L1.3 — Why is representation the core problem?
+- Core Question
+  - Why are representations the key bottleneck for intelligence?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L1.2
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 2 — Machine Learning
-- Goal
-  - Learn the practical foundations of data, models, and evaluation needed for machine learning systems.
-- Duration: 6 weeks
 
-### Module 2.1 — Data and Feature Foundations
-- Lessons
-  - Understand dataset structure, types, and common data quality issues.
-  - Implement data cleaning, normalization, encoding, and missing-value strategies.
-  - Build exploratory data analysis workflows and visualizations.
-- Implementation
-  - Create an EDA notebook or script in `experiments` that documents dataset decisions.
-- Capstone
-  - Deliver a reproducible data preparation pipeline for a real dataset.
+- Mission
+  - Build intuition for data-driven learning and the first statistical models that enabled reliable prediction.
+- Objectives
+  - Understand probabilistic reasoning, estimation, and bias-variance tradeoffs.
+  - Learn why simple models remain essential.
+  - Establish a practice of reasoning from data quality to model behavior.
+- Prerequisites
+  - Phase 1 lessons.
+- Estimated Duration
+  - 4 weeks
+- Capstone Project
+  - Publish a data-driven chapter that links statistical learning to modern model design.
+- Success Criteria
+  - The handbook explains why data, probability, and validation are the foundation of trustworthy models.
 
-### Module 2.2 — Mathematical Foundations for ML
-- Lessons
-  - Learn linear algebra for vectors, matrices, and transformations.
-  - Study calculus basics: derivatives, gradients, and optimization.
-  - Cover probability and statistics for uncertainty, estimation, and hypothesis testing.
-- Implementation
-  - Implement key math operations and verify them through code examples.
-- Capstone
-  - Publish a math-focused module notebook that connects theory to model behavior.
+### L2.1 — Why does probability matter for learning?
+- Core Question
+  - Why is uncertainty central to model-based intelligence?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
-### Module 2.3 — Core Supervised Learning
-- Lessons
-  - Study linear regression, logistic regression, loss functions, and gradient updates.
-  - Learn model validation, cross-validation, and evaluation metrics.
-  - Explore feature engineering, regularization, and error analysis.
-- Implementation
-  - Build supervised learning models from scratch in `implementations`.
-- Capstone
-  - Deliver an end-to-end supervised learning prototype with reproducible evaluation.
+### L2.2 — How do simple models learn?
+- Core Question
+  - How do linear and logistic models turn data into predictions?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L2.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Implementation (when applicable)
+  - Progress update
+- Status
+  - Not started
+
+### L2.3 — What makes a model generalize?
+- Core Question
+  - Why do models overfit, and what does it take to generalize?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L2.2
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 3 — Deep Learning
-- Goal
-  - Develop practical skills in neural network modeling, training, and architecture design.
-- Duration: 8 weeks
 
-### Module 3.1 — Neural Network Fundamentals
-- Lessons
-  - Understand perceptrons, multilayer architectures, and activation functions.
-  - Learn backpropagation, gradient descent, and optimization behavior.
-  - Master common training strategies including regularization and normalization.
-- Implementation
-  - Implement a small neural network from scratch and compare results to a framework.
-- Capstone
-  - Publish a neural network case study with training diagnostics.
+- Mission
+  - Explain why neural networks were born from the limitations of earlier learning systems.
+- Objectives
+  - Understand depth, nonlinearity, and backpropagation.
+  - Learn why representation learning replaced handcrafted features.
+  - Establish practical training intuition.
+- Prerequisites
+  - Phase 2 lessons.
+- Estimated Duration
+  - 4 weeks
+- Capstone Project
+  - Publish a deep learning chapter that connects neural network design to representation learning.
+- Success Criteria
+  - The handbook explains why and how deep models extend statistical learning.
 
-### Module 3.2 — Convolutional and Sequence Models
-- Lessons
-  - Study convolutional networks for structured signal and image data.
-  - Learn recurrent structures and sequence modeling fundamentals.
-  - Explore transfer learning and model adaptation techniques.
-- Implementation
-  - Build an image or sequence-based model with transfer learning experiments.
-- Capstone
-  - Deliver an analyzed case study on a deep learning task.
+### L3.1 — Why do neural networks need depth?
+- Core Question
+  - What problem does network depth solve, and why are nonlinearities essential?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 2
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Implementation (when applicable)
+  - Progress update
+- Status
+  - Not started
+
+### L3.2 — Why does backpropagation work?
+- Core Question
+  - How does gradient-based learning become practical for deep networks?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L3.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L3.3 — How do architectures shape learning?
+- Core Question
+  - When do convolutional or sequence models become the right approach?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L3.2
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 4 — Language Intelligence
-- Goal
-  - Apply deep learning concepts to natural language and text understanding.
-- Duration: 6 weeks
 
-### Module 4.1 — NLP Fundamentals
-- Lessons
-  - Learn tokenization, embedding representations, and language preprocessing.
-  - Understand text classification, sequence labeling, and retrieval workflows.
-  - Study evaluation metrics for NLP tasks.
-- Implementation
-  - Build a basic NLP prototype in `experiments` with documented datasets and metrics.
-- Capstone
-  - Deliver a practical language intelligence prototype, such as classification or summarization.
+- Mission
+  - Show why language is a distinct intelligence domain and how sequence modeling evolved to address it.
+- Objectives
+  - Understand linguistic structure, embeddings, and contextual meaning.
+  - Explain the limits of early NLP pipelines.
+  - Learn why language requires specialized models.
+- Prerequisites
+  - Phase 3 lessons.
+- Estimated Duration
+  - 4 weeks
+- Capstone Project
+  - Publish a language intelligence chapter that connects meaning, representation, and model design.
+- Success Criteria
+  - The handbook explains why language intelligence is both special and structural.
 
-### Module 4.2 — Language System Design
-- Lessons
-  - Explore prompt design, fine-tuning, and human-centered language workflows.
-  - Study model behavior, bias, and safety for language outputs.
-- Implementation
-  - Document a language system design and validation plan.
-- Capstone
-  - Publish a language intelligence notebook or demo with user-centered evaluation.
+### L4.1 — Why is language different?
+- Core Question
+  - What makes language a hard problem for AI?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 3
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L4.2 — How do we represent text?
+- Core Question
+  - Why are embeddings necessary, and what do they capture?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L4.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L4.3 — Why is generation hard?
+- Core Question
+  - What makes language generation different from classification?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L4.2
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 5 — Transformers
-- Goal
-  - Understand transformer architectures and attention-based modeling in depth.
-- Duration: 6 weeks
 
-### Module 5.1 — Transformer Architecture
-- Lessons
-  - Study self-attention, positional encoding, and transformer block structure.
-  - Learn encoder-only, decoder-only, and encoder-decoder families.
-  - Compare transformers to earlier sequence models.
-- Implementation
-  - Build a transformer block implementation and verify attention behavior.
-- Capstone
-  - Deliver an implementation report and transformer analysis notebook.
+- Mission
+  - Explain the transformer breakthrough and why attention replaced recurrence.
+- Objectives
+  - Understand self-attention and transformer structure.
+  - Learn the reasons transformers scale effectively.
+  - Compare transformer families and applications.
+- Prerequisites
+  - Phase 4 lessons.
+- Estimated Duration
+  - 4 weeks
+- Capstone Project
+  - Publish a transformer chapter that explains the core idea and practical tradeoffs.
+- Success Criteria
+  - The handbook explains transformer emergence, structure, and use cases.
 
-### Module 5.2 — Transformer Applications
-- Lessons
-  - Explore transformer-based tasks such as translation, summarization, and representation learning.
-  - Evaluate performance tradeoffs and practical fine-tuning approaches.
-- Implementation
-  - Create an experimental transformer application with reproducible results.
-- Capstone
-  - Publish a transformer experiment that demonstrates architecture choices.
+### L5.1 — What problem does attention solve?
+- Core Question
+  - Why did attention become the central idea for sequence models?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 4
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L5.2 — How do transformers scale?
+- Core Question
+  - Why are transformers more scalable than earlier architectures?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L5.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 6 — Large Language Models
-- Goal
-  - Learn how large language models are built, evaluated, and applied responsibly.
-- Duration: 6 weeks
 
-### Module 6.1 — LLM Foundations
-- Lessons
-  - Understand scaling laws, model size, and training data considerations.
-  - Study tokenization, context windows, and generation mechanisms.
-  - Learn evaluation approaches for generative language systems.
-- Implementation
-  - Experiment with an LLM workflow or adapter-based fine-tuning pipeline.
-- Capstone
-  - Publish an LLM application demonstration with clear evaluation criteria.
+- Mission
+  - Explain how scaling transforms language models and the challenges that emerge.
+- Objectives
+  - Understand scaling, context, and generative behavior.
+  - Learn why hallucinations occur and how responsibility matters.
+  - Connect LLM behavior to real applications.
+- Prerequisites
+  - Phase 5 lessons.
+- Estimated Duration
+  - 4 weeks
+- Capstone Project
+  - Publish an LLM chapter that discusses scaling, evaluation, and responsible use.
+- Success Criteria
+  - The handbook explains the phenomena and design tradeoffs in LLMs.
 
-### Module 6.2 — Responsible LLM Use
-- Lessons
-  - Study prompt engineering, bias mitigation, and safety guardrails.
-  - Explore retrieval-augmented systems and hybrid LLM pipelines.
-- Implementation
-  - Build a prototype that integrates an LLM with external knowledge or retrieval.
-- Capstone
-  - Deliver a responsible LLM application case study.
+### L6.1 — Why does scale matter?
+- Core Question
+  - Why do larger language models behave differently?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 5
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L6.2 — When are LLMs responsible?
+- Core Question
+  - What does responsible use mean for large language models?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L6.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 7 — AI Engineering
-- Goal
-  - Build the engineering foundation for reproducible AI systems and maintainable workflows.
-- Duration: 5 weeks
 
-### Module 7.1 — Engineering Practices
-- Lessons
-  - Learn environment management, dependency control, and reproducible builds.
-  - Study testing, modular code structure, and documentation standards.
-  - Explore experiment tracking and version control for models and data.
-- Implementation
-  - Create reusable project templates and CI-style checks for AI work.
-- Capstone
-  - Publish an AI engineering handbook or template library.
+- Mission
+  - Build the engineering discipline required to make AI work reliable and maintainable.
+- Objectives
+  - Learn reproducible workflows, dependency management, and experiment tracking.
+  - Understand testing, validation, and documentation practices.
+- Prerequisites
+  - Phase 1–6 lessons.
+- Estimated Duration
+  - 3 weeks
+- Capstone Project
+  - Publish an AI engineering chapter with workflow and validation guidelines.
+- Success Criteria
+  - The handbook explains how to engineer and verify AI work.
 
-### Module 7.2 — MLOps and Lifecycle
-- Lessons
-  - Study model deployment patterns, logging, monitoring, and data lineage.
-  - Learn how to manage model versions and production training pipelines.
-- Implementation
-  - Build a lightweight MLOps workflow or deployment readiness checklist.
-- Capstone
-  - Deliver an engineering case study for model delivery and lifecycle management.
+### L7.1 — Why does reproducibility matter?
+- Core Question
+  - What makes reproducible AI work different from traditional software?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 1–6
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L7.2 — How do we validate AI systems?
+- Core Question
+  - How should AI systems be tested and monitored for reliability?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L7.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 8 — Production AI Systems
-- Goal
-  - Translate prototypes into reliable, deployable systems with portfolio-ready documentation.
-- Duration: 6 weeks
 
-### Module 8.1 — Service Design
-- Lessons
-  - Design APIs for AI inference and interactive applications.
-  - Learn system-level tradeoffs for latency, cost, and reliability.
-  - Explore deployment strategies for lightweight and cloud-hosted services.
-- Implementation
-  - Build a production-ready AI service or demo application.
-- Capstone
-  - Release a deployable AI application with user-facing documentation.
+- Mission
+  - Explain how AI models become production-capable systems.
+- Objectives
+  - Understand model serving, deployment, monitoring, and operational risk.
+  - Learn why production constraints shape AI design.
+- Prerequisites
+  - Phase 7 lessons.
+- Estimated Duration
+  - 3 weeks
+- Capstone Project
+  - Publish a production systems chapter with deployment and monitoring guidance.
+- Success Criteria
+  - The handbook explains how to move AI from prototype to system.
 
-### Module 8.2 — Operations and Monitoring
-- Lessons
-  - Study monitoring, alerting, and model performance tracking.
-  - Learn how to manage drift, retraining triggers, and operational risk.
-- Implementation
-  - Create monitoring and validation scripts for a deployed AI system.
-- Capstone
-  - Publish an operational readiness report for the service.
+### L8.1 — What does production require?
+- Core Question
+  - What is required to serve AI models in real systems?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 7
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
+
+### L8.2 — How do we maintain deployed models?
+- Core Question
+  - How should deployed AI systems be monitored and updated?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L8.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
 ## Phase 9 — Research Frontiers
-- Goal
-  - Synthesize learnings, evaluate future directions, and define next-phase research.
-- Duration: 4 weeks
 
-### Module 9.1 — Emerging AI Topics
-- Lessons
-  - Review reinforcement learning, multimodal AI, and generative systems.
-  - Explore hardware-aware AI and distributed training research.
-  - Study new directions in safe, responsible, and collaborative AI.
-- Implementation
-  - Curate a research summary in `resources` and add references to `roadmap/questions.md`.
-- Capstone
-  - Publish a future research synthesis that describes where the project should evolve.
+- Mission
+  - Survey the most important future directions and prepare the handbook for long-term growth.
+- Objectives
+  - Explore reinforcement learning, multimodal AI, hardware-aware thinking, and open research questions.
+  - Define the next-generation roadmap for the repository.
+- Prerequisites
+  - Phase 1–8 lessons.
+- Estimated Duration
+  - 3 weeks
+- Capstone Project
+  - Publish a research frontier chapter and next-phase plan.
+- Success Criteria
+  - The handbook identifies promising directions and preserves the project’s long-term narrative.
 
-### Module 9.2 — Portfolio Synthesis
-- Lessons
-  - Consolidate core results and highlight portfolio-worthy deliverables.
-  - Create a public roadmap for the next 6–12 months.
-  - Document lessons learned and research gaps.
-- Implementation
-  - Build a final portfolio index and project showcase document.
-- Capstone
-  - Publish a completion report and next-phase AI roadmap.
+### L9.1 — What are the emerging AI paradigms?
+- Core Question
+  - What research directions are most likely to shape the next phase of AI?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - Phase 1–8
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
-## Dependencies
-- Phase 1 → Phase 2 → Phase 3 → Phase 4 → Phase 5 → Phase 6 → Phase 7 → Phase 8 → Phase 9
-- Phase 7 depends on the engineering maturity supported by Phases 2–6.
-- Phase 8 depends on practical systems, modeling, and deployment readiness from Phases 2–7.
-- Phase 9 depends on the full project history and documented outcomes from all prior phases.
+### L9.2 — What is the next roadmap?
+- Core Question
+  - How should this handbook evolve after the first nine phases?
+- Estimated Time
+  - 4 hours
+- Prerequisites
+  - L9.1
+- Repository Deliverables
+  - Lesson notes
+  - Whiteboard diagram
+  - Journal entry
+  - Research questions
+  - Glossary updates
+  - Progress update
+- Status
+  - Not started
 
-## Long-Term Portfolio Goals
-- Preserve reproducibility with phase-level documentation, module artifacts, and lesson-level implementation records.
-- Keep this repository suitable for public review by organizing content along phases, modules, and deliverables.
-- Maintain a portfolio that balances technical learning, engineering discipline, and research clarity.
