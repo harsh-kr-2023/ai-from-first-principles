@@ -1,83 +1,71 @@
-﻿# AI From First Principles
+# AI From First Principles
 
-A living, open-source handbook for understanding modern artificial intelligence from first principles.
+A public handbook for the evolution of artificial intelligence from first principles.
 
 ## Project Vision
 
-This repository is built to become a complete handbook documenting how AI ideas evolved, why they work, and how to build them from first principles. It is not a course, notebook collection, or random note dump.
+AI From First Principles is designed to become a complete open-source handbook documenting the historical, mathematical, and engineering evolution of AI. It is not a course, a notebook collection, or a collection of disconnected notes.
 
 ## Learning Philosophy
 
-- Every lesson is a narrative that traces a problem, explains why earlier solutions failed, identifies the insight that changed the field, and shows how the new idea works in practice.
-- Concepts are always connected through their historical and engineering evolution.
-- Implementation follows understanding: major ideas should be built from scratch before using frameworks.
+- Learning is driven by idea evolution: each lesson explains the problem, prior failure modes, the insight that changed the field, how the new idea works, tradeoffs, and practical use.
+- Concepts are connected through their history and engineering rationale.
+- Understand before implementing: major ideas should be reasoned and sketched before code is written.
 
-## Repository Architecture
+## Repository Structure
 
-- `roadmap/`: planning, phase roadmap, progress tracking, research questions, glossary, and changelog.
-- `modules/`: the evolving module structure for the handbook.
-- `implementations/`: from-scratch code artifacts and concept implementations.
-- `journal/`: personal learning reflections focused on understanding.
-- `whiteboard/`: visual reasoning, sketches, diagrams, and architecture thinking.
+- `roadmap/`: phase-based handbook roadmap, progress tracking, glossary, research questions, and changelog.
+- `modules/`: reserved for future structural outlines and phase planning artifacts.
+- `implementations/`: future from-scratch code artifacts tied to lessons.
+- `journal/`: personal reflections focused on understanding and insight.
+- `whiteboard/`: visual reasoning, diagrams, and architecture sketches.
 - `resources/`: curated books, papers, videos, and articles.
-- `experiments/`: exploratory projects, prototypes, and research notes.
-- `assets/`: diagrams, illustrations, and visual assets used by the handbook.
-
-## Curriculum Overview
-
-The handbook is organized into phases that reflect the historical and conceptual evolution of AI:
-
-1. Foundations of Intelligence
-2. Machine Learning
-3. Deep Learning
-4. Language Intelligence
-5. Transformers
-6. Large Language Models
-7. AI Engineering
-8. Production AI Systems
-9. Research Frontiers
-
-## How to Use This Repository
-
-1. Read `roadmap/master-roadmap.md` to understand the phase-based structure and lesson progression.
-2. Track progress in `roadmap/progress.md` as lessons are completed.
-3. Consult `roadmap/questions.md` to keep research questions visible during each phase.
-4. Use `resources/` for high-quality references and curated study material.
-5. Capture insight-driven notes in `journal/` and sketch concepts in `whiteboard/`.
+- `experiments/`: exploratory prototypes and research notes.
+- `assets/`: diagrams, figures, and visual assets supporting the handbook.
 
 ## Workflow
 
-- Plan each phase in the roadmap.
-- Work through lessons sequentially, following the idea evolution.
-- Build small implementations after the concept is understood.
-- Keep the repository clean: use `modules/` for structure and `implementations/` for code artifacts.
-- Preserve reproducibility with clear documentation and versioned assets.
+- Start with `roadmap/master-roadmap.md` for the current phase and lesson progression.
+- Track completion using `roadmap/progress.md`.
+- Maintain research focus in `roadmap/questions.md`.
+- Keep glossary placeholders in `roadmap/glossary.md` and update them as understanding grows.
+- Store reference material in `resources/` and visual summaries in `whiteboard/`.
 
-## Contribution Philosophy
+## How to Study
 
-This is a long-term handbook. Contributions should:
+1. Read the current lesson in `roadmap/master-roadmap.md`.
+2. Sketch key ideas in `whiteboard/`.
+3. Reflect in `journal/` with insight-driven notes.
+4. Update `roadmap/progress.md` and `roadmap/questions.md`.
+5. Add implementations to `implementations/` only after the concept is understood.
 
-- improve clarity or narrative flow,
-- add reproducible implementation details,
-- refine the conceptual story,
-- avoid disconnected or overly broad content.
-
-## Links
+## Roadmap and Progress
 
 - Roadmap: `roadmap/master-roadmap.md`
-- Progress: `roadmap/progress.md`
-- Questions: `roadmap/questions.md`
+- Progress tracking: `roadmap/progress.md`
+- Research questions: `roadmap/questions.md`
+- Glossary: `roadmap/glossary.md`
+- Changelog: `roadmap/changelog.md`
+- Lesson template: `roadmap/lesson-template.md`
+
+## Repository Principles
+
+- Clarity over completeness: each document should make the next reader understand the idea.
+- Maintainability over breadth: keep structure simple and consistent.
+- Scalability over accumulation: add content only when it supports the handbook narrative.
+- Production-quality documentation from day one.
+
+## Long-Term Vision
+
+This repository will grow into a reference-quality handbook with:
+
+- historical and conceptual narratives,
+- mathematical and engineering intuition,
+- from-scratch implementations,
+- diagrams and visual explanations,
+- curated research resources.
 
 ## License
 
-This repository is released under the MIT License. See `LICENSE` for details.
+This project is licensed under the MIT License. See `LICENSE` for details.
 
-## Future Plans
-
-Over the next 6–12 months, this repository will evolve into a public handbook with:
-
-- historical and mathematical intuition,
-- engineering and production understanding,
-- from-scratch implementations,
-- diagrams and visual narratives,
-- curated research references.

@@ -1,91 +1,119 @@
-﻿# AI From First Principles — Glossary
+# AI From First Principles — Glossary
 
-## Intelligence
+## Phase 1 — Foundations of Intelligence
+### Intelligence
 _Entry to be completed._
 
-## Artificial Intelligence (AI)
+### Representation
 _Entry to be completed._
 
-## Machine Learning (ML)
+### Search
 _Entry to be completed._
 
-## Deep Learning (DL)
+### Symbolic AI
 _Entry to be completed._
 
-## Supervised Learning
+## Phase 2 — Machine Learning
+### Probability
 _Entry to be completed._
 
-## Unsupervised Learning
+### Bias-Variance Tradeoff
 _Entry to be completed._
 
-## Reinforcement Learning
+### Generalization
 _Entry to be completed._
 
-## Neural Network
+### Loss Function
 _Entry to be completed._
 
-## Backpropagation
+## Phase 3 — Deep Learning
+### Neural Network
 _Entry to be completed._
 
-## Gradient Descent
+### Backpropagation
 _Entry to be completed._
 
-## Activation Function
+### Activation Function
 _Entry to be completed._
 
-## Embedding
+### Representation Learning
 _Entry to be completed._
 
-## Transformer
+## Phase 4 — Language Intelligence
+### Embedding
 _Entry to be completed._
 
-## Attention
+### Tokenization
 _Entry to be completed._
 
-## Tokenization
+### Context
 _Entry to be completed._
 
-## Representation
+### Sequence Modeling
 _Entry to be completed._
 
-## Generalization
+## Phase 5 — Transformers
+### Attention
 _Entry to be completed._
 
-## Overfitting
+### Transformer
 _Entry to be completed._
 
-## Regularization
+### Self-Attention
 _Entry to be completed._
 
-## Cross-Validation
+### Positional Encoding
 _Entry to be completed._
 
-## Dataset Drift
+## Phase 6 — Large Language Models
+### Scaling Law
 _Entry to be completed._
 
-## Model Evaluation
+### Prompt
 _Entry to be completed._
 
-## MLOps
+### Hallucination
 _Entry to be completed._
 
-## Model Serving
+### Responsible AI
 _Entry to be completed._
 
-## Reproducibility
+## Phase 7 — AI Engineering
+### Reproducibility
 _Entry to be completed._
 
-## Interpretability
+### Experiment Tracking
 _Entry to be completed._
 
-## Fairness
+### Validation
 _Entry to be completed._
 
-## Robustness
+### Technical Debt
 _Entry to be completed._
 
-## Responsible AI
+## Phase 8 — Production AI Systems
+### Model Serving
 _Entry to be completed._
 
-## Portfolio Quality
+### Monitoring
 _Entry to be completed._
+
+### Drift
+_Entry to be completed._
+
+### Operations
+_Entry to be completed._
+
+## Phase 9 — Research Frontiers
+### Reinforcement Learning
+_Entry to be completed._
+
+### Multimodal AI
+_Entry to be completed._
+
+### Hardware-aware AI
+_Entry to be completed._
+
+### Research Roadmap
+_Entry to be completed._
+

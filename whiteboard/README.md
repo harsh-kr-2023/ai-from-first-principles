@@ -1,10 +1,14 @@
-﻿# Whiteboard Philosophy
+# Whiteboard Philosophy
 
 Every concept in this handbook should eventually be drawable from memory.
 
-The whiteboard is the place for diagrams, sketching system flow, and visual storytelling. Use it to make abstract ideas concrete and to show how concepts connect.
+Whiteboard work is not decoration. It is a core thinking process for turning abstract ideas into precise systems.
 
-- Capture architectures and model flow.
-- Draw the evolution of ideas.
-- Compare approaches visually.
-- Use diagrams to explain tradeoffs and system behavior.
+Use the whiteboard to:
+- draw concept evolution and system flow,
+- compare approaches visually,
+- capture architecture tradeoffs,
+- link diagrams to lesson insights.
+
+Store sketches, diagrams, and visual notes in `whiteboard/` alongside the lesson they support.
+
